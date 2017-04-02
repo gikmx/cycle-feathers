@@ -1,0 +1,43 @@
+{
+  "name": "cycle-feathers",
+  "version": "0.0.2",
+  "description": "A cycle.js driver for feathers.js using sockets.",
+  "main": "src/index.js",
+  "author": "Héctor Menéndez <etor@gik.mx>",
+  "license": "MIT",
+  "homepage": "https://github.com/gikmx/cycle-validate#readme",
+  "scripts": {
+    "test": "ava src/test.js --verbose --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gikmx/cycle-validate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gikmx/cycle-validate/issues"
+  },
+  "keywords": [
+    "reactive",
+    "framework",
+    "driver",
+    "rx",
+    "rxjs",
+    "xstream",
+    "cycle",
+    "unidirectional",
+    "feathers",
+    "socket",
+    "real time",
+    "realtime"
+  ],
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-core": "^6.24.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-stage-0": "^6.22.0"
+  },
+  "ava":{
+    "require": "babel-register",
+    "babel": "inherit"
+  }
+}
