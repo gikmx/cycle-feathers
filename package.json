@@ -6,6 +6,18 @@
   "author": "Héctor Menéndez <etor@gik.mx>",
   "license": "MIT",
   "homepage": "https://github.com/gikmx/cycle-validate#readme",
+  "dependencies": {
+    "@gik/validate": "gikmx/validate.git#0.0.3",
+    "debug": "^2.6.3",
+    "feathers-client": "^1.9.0",
+    "xstream": "^10.3.0"
+  },
+  "devDependencies": {
+    "ava": "^0.18.2",
+    "babel-core": "^6.24.0",
+    "babel-preset-env": "^1.3.2",
+    "babel-preset-stage-0": "^6.22.0"
+  },
   "scripts": {
     "test": "ava src/test.js --verbose --no-cache"
   },
@@ -30,13 +42,7 @@
     "real time",
     "realtime"
   ],
-  "devDependencies": {
-    "ava": "^0.18.2",
-    "babel-core": "^6.24.0",
-    "babel-preset-env": "^1.3.2",
-    "babel-preset-stage-0": "^6.22.0"
-  },
-  "ava":{
+  "ava": {
     "require": "babel-register",
     "babel": "inherit"
   }
